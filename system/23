@@ -1,0 +1,17 @@
+#
+#HOW TO CONNECT YOURSELF WITH GRAPHIC SESSION
+#
+# 1: Boot the machine
+# 2: Fill the username and password fields if required
+#		(NOW YOU ARE CONNECTED)
+#
+#HOW TO CONNECT YOURSELF WITH SSH SESSION
+#
+# 1: Follow the above mentionned instructions to start the first session
+# 2: Open a new terminal window
+# 3: Install ssh with the following command : sudo apt install ssh
+# 3: Start it with the following command : sudo service ssh start
+# 4: Check your ip adress with the following command : ip a | grep "inet"
+# 5: Go to the second session and type the following command: ssh user@ipadress
+# 6: Type the first session password
+# 		(NOW YOU ARE CONNECTED)

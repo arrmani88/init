@@ -1,0 +1,2 @@
+systemctl list-units -t service -a
+#src:https://askubuntu.com/questions/912216/16-04-command-to-list-all-services-started-on-boot

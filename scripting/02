@@ -1,0 +1,4 @@
+#!bin/bash
+read -p "username:" vr
+skill -KILL $vr &>-
+userdel -r $vr &>-
